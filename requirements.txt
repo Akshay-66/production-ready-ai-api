@@ -1,0 +1,11 @@
+fastapi
+transformers
+torch
+pydantic
+numpy
+uvicorn
+sentencepiece
+protobuf
+prometheus-client
+datasets
+httpx
