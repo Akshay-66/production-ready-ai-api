@@ -17,7 +17,7 @@ def test_positive_sentiment():
 def test_negative_sentiment():
     response = client.post(
         "/predict/trained",
-        json = {"test": "This is Terrible!"}
+        json = {"text": "This is Terrible!"}
     )
     assert response.status_code == 200
     data = response.json()
