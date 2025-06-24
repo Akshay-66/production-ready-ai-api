@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 def train_model():
     # Load Dataset from Hugging face Dataset library
     full_dataset = load_dataset("stanfordnlp/imdb", split="train")
-    dataset = full_dataset.shuffle(seed=42).select(range(500))
+    dataset = full_dataset.shuffle(seed=42).select(range(3000))
 
     model_name = "distilbert-base-uncased"
     tokenizer = AutoTokenizer.from_pretrained(model_name)

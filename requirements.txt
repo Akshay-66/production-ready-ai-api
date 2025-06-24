@@ -7,5 +7,5 @@ uvicorn
 sentencepiece
 protobuf
 prometheus-client
-datasets
 httpx
+datasets==2.15.0
