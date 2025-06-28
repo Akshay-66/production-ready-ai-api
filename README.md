@@ -2,6 +2,9 @@
 
 An end-to-end, production-ready API for deploying AI/ML models with full support for reproducibility, monitoring, testing, automation, and version control.
 
+# Demo ▶️
+You can find the demo here: [link](https://github.com/Akshay-66/production-ready-ai-api/blob/main/DEMO.md)
+
 ### Problem
 
 * Data science models often fail to make the leap from research to production.
