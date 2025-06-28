@@ -7,7 +7,7 @@ client = TestClient(app)
 def test_positive_sentiment():
     response = client.post(
         "/predict/trained",
-        json={"text": "This is Great!"}
+        json={"text": "This is Awesome!"}
     )
     assert response.status_code == 200
     data = response.json()
